@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaGoogle } from "react-icons/fa";
-import { MdFacebook } from "react-icons/md";
+import { FaFacebook } from "react-icons/fa";
 
 const Register = () => {
   return (
@@ -63,7 +63,7 @@ const Register = () => {
                     <span><FaGoogle /></span>
                 </div>
                 <div className="w-[135px] h-[35px] flex rounded-md bg-white shadow-lg hover:shadow-blue-500/50 justify-center cursor-pointer items-center">
-                    <span><MdFacebook /></span>
+                    <span><FaFacebook /></span>
                 </div>
             </div>
 
